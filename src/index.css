@@ -1,0 +1,141 @@
+body {
+  background-color: rgb(44, 44, 44);
+  display: grid;
+  justify-content: center;
+
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+}
+
+.container > h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+label {
+  color: rgb(0, 191, 255);
+}
+
+input {
+  
+  margin-left: 2rem;
+  width: 15rem;
+  height: 2rem;
+  border: 1px solid white;
+  border-radius: 3px;
+  
+}
+
+::placeholder {
+  padding-left: 3px;
+}
+
+button {
+  
+  width: 3rem;
+  border: 1px solid lightgreen;
+  background-color: lightgreen;
+  border-radius: 3px;
+  height: 2.4rem;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: rgb(164, 245, 164);
+}
+
+button:active {
+  background-color: rgb(200, 248, 200);
+}
+
+ol {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  font-weight: bolder;
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  width: 25rem;
+  height: 3rem;
+}
+
+.text {
+  flex: 0.9;
+
+}
+
+.delete-btn {
+  width: 3rem;
+  border: 1px solid tomato;
+  background-color: tomato;
+  border-radius: 3px;
+  height: 1.4rem;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.delete-btn:hover {
+  background-color: rgb(255, 140, 120);
+}
+
+.delete-btn:active {
+  background-color: rgb(255, 205, 196);
+}
+
+.move-up {
+  width: 2rem;
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  border-radius: 3px;
+  height: 2.1rem;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.move-up:active {
+  background-color: rgb(207, 222, 228);
+}
+
+.move-up:hover {
+  background-color: rgb(187, 218, 228);
+}
+
+.move-down {
+  width: 2rem;
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  border-radius: 3px;
+  height: 2.1rem;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.move-down:active {
+  background-color: rgb(207, 222, 228);
+}
+
+.move-down:hover {
+  background-color: rgb(187, 218, 228);
+}
